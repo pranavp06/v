@@ -13,6 +13,23 @@ body {
     align-items: center;
     overflow: hidden;
     position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.app-credit {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.9rem;
+    font-weight: 600;
+    z-index: 100;
+    background: rgba(255, 107, 157, 0.3);
+    padding: 8px 16px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .container {
